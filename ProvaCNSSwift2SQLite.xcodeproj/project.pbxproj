@@ -12,6 +12,12 @@
 		7E06AFD51B54EAF700EEE93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E06AFD31B54EAF700EEE93E /* Main.storyboard */; };
 		7E06AFD71B54EAF700EEE93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E06AFD61B54EAF700EEE93E /* Assets.xcassets */; };
 		7E06AFDA1B54EAF700EEE93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E06AFD81B54EAF700EEE93E /* LaunchScreen.storyboard */; };
+		7E06AFEE1B54EB1F00EEE93E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E06AFE41B54EB1F00EEE93E /* FMDatabase.m */; };
+		7E06AFEF1B54EB1F00EEE93E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E06AFE61B54EB1F00EEE93E /* FMDatabaseAdditions.m */; };
+		7E06AFF01B54EB1F00EEE93E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E06AFE81B54EB1F00EEE93E /* FMDatabasePool.m */; };
+		7E06AFF11B54EB1F00EEE93E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E06AFEA1B54EB1F00EEE93E /* FMDatabaseQueue.m */; };
+		7E06AFF21B54EB1F00EEE93E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E06AFED1B54EB1F00EEE93E /* FMResultSet.m */; };
+		7E06AFF41B54EB4000EEE93E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E06AFF31B54EB4000EEE93E /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,19 @@
 		7E06AFD61B54EAF700EEE93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E06AFD91B54EAF700EEE93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E06AFDB1B54EAF700EEE93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E06AFE21B54EB1F00EEE93E /* ProvaCNSSwift2SQLite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProvaCNSSwift2SQLite-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E06AFE31B54EB1F00EEE93E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabase.h; sourceTree = "<group>"; };
+		7E06AFE41B54EB1F00EEE93E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabase.m; sourceTree = "<group>"; };
+		7E06AFE51B54EB1F00EEE93E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		7E06AFE61B54EB1F00EEE93E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7E06AFE71B54EB1F00EEE93E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabasePool.h; sourceTree = "<group>"; };
+		7E06AFE81B54EB1F00EEE93E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabasePool.m; sourceTree = "<group>"; };
+		7E06AFE91B54EB1F00EEE93E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7E06AFEA1B54EB1F00EEE93E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7E06AFEB1B54EB1F00EEE93E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMDB.h; sourceTree = "<group>"; };
+		7E06AFEC1B54EB1F00EEE93E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMResultSet.h; sourceTree = "<group>"; };
+		7E06AFED1B54EB1F00EEE93E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../../../../VARIE/ProveCorpus/ProvaCNSSwiftSQLite/ProvaCNSSwiftSQLite/FMResultSet.m; sourceTree = "<group>"; };
+		7E06AFF31B54EB4000EEE93E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E06AFF41B54EB4000EEE93E /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +58,7 @@
 		7E06AFC31B54EAF700EEE93E = {
 			isa = PBXGroup;
 			children = (
+				7E06AFF31B54EB4000EEE93E /* libsqlite3.0.tbd */,
 				7E06AFCE1B54EAF700EEE93E /* ProvaCNSSwift2SQLite */,
 				7E06AFCD1B54EAF700EEE93E /* Products */,
 			);
@@ -54,6 +75,7 @@
 		7E06AFCE1B54EAF700EEE93E /* ProvaCNSSwift2SQLite */ = {
 			isa = PBXGroup;
 			children = (
+				7E06AFE11B54EB0300EEE93E /* FMDB */,
 				7E06AFCF1B54EAF700EEE93E /* AppDelegate.swift */,
 				7E06AFD11B54EAF700EEE93E /* ViewController.swift */,
 				7E06AFD31B54EAF700EEE93E /* Main.storyboard */,
@@ -62,6 +84,25 @@
 				7E06AFDB1B54EAF700EEE93E /* Info.plist */,
 			);
 			path = ProvaCNSSwift2SQLite;
+			sourceTree = "<group>";
+		};
+		7E06AFE11B54EB0300EEE93E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				7E06AFE31B54EB1F00EEE93E /* FMDatabase.h */,
+				7E06AFE41B54EB1F00EEE93E /* FMDatabase.m */,
+				7E06AFE51B54EB1F00EEE93E /* FMDatabaseAdditions.h */,
+				7E06AFE61B54EB1F00EEE93E /* FMDatabaseAdditions.m */,
+				7E06AFE71B54EB1F00EEE93E /* FMDatabasePool.h */,
+				7E06AFE81B54EB1F00EEE93E /* FMDatabasePool.m */,
+				7E06AFE91B54EB1F00EEE93E /* FMDatabaseQueue.h */,
+				7E06AFEA1B54EB1F00EEE93E /* FMDatabaseQueue.m */,
+				7E06AFEB1B54EB1F00EEE93E /* FMDB.h */,
+				7E06AFEC1B54EB1F00EEE93E /* FMResultSet.h */,
+				7E06AFED1B54EB1F00EEE93E /* FMResultSet.m */,
+				7E06AFE21B54EB1F00EEE93E /* ProvaCNSSwift2SQLite-Bridging-Header.h */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +131,7 @@
 		7E06AFC41B54EAF700EEE93E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Alessandro Calciati";
 				TargetAttributes = {
@@ -134,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E06AFEE1B54EB1F00EEE93E /* FMDatabase.m in Sources */,
 				7E06AFD21B54EAF700EEE93E /* ViewController.swift in Sources */,
+				7E06AFF21B54EB1F00EEE93E /* FMResultSet.m in Sources */,
+				7E06AFF01B54EB1F00EEE93E /* FMDatabasePool.m in Sources */,
 				7E06AFD01B54EAF700EEE93E /* AppDelegate.swift in Sources */,
+				7E06AFEF1B54EB1F00EEE93E /* FMDatabaseAdditions.m in Sources */,
+				7E06AFF11B54EB1F00EEE93E /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +295,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ProvaCNSSwift2SQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calciati.ProvaCNSSwift2SQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProvaCNSSwift2SQLite/ProvaCNSSwift2SQLite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -259,10 +309,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ProvaCNSSwift2SQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calciati.ProvaCNSSwift2SQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProvaCNSSwift2SQLite/ProvaCNSSwift2SQLite-Bridging-Header.h";
 			};
 			name = Release;
 		};
